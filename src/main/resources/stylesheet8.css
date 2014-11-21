@@ -193,6 +193,7 @@ ul.subNavList li{
     background-color:#F8981D;
     color:#253441;
     margin: auto 5px;
+    border-radius: 4px;
 }
 .skipNav {
     position:absolute;

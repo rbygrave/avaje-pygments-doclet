@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -39,17 +40,17 @@
             <version>1.5.0</version>
         </dependency>
 
-      <dependency>
-        <groupId>org.python</groupId>
-        <artifactId>jython-standalone</artifactId>
-        <version>2.5.3</version>
-      </dependency>
+        <dependency>
+            <groupId>org.python</groupId>
+            <artifactId>jython-standalone</artifactId>
+            <version>2.5.3</version>
+        </dependency>
 
-      <dependency>
-        <groupId>org.pygments</groupId>
-        <artifactId>pygments</artifactId>
-        <version>1.5</version>
-      </dependency>
+        <dependency>
+            <groupId>org.pygments</groupId>
+            <artifactId>pygments</artifactId>
+            <version>1.6</version>
+        </dependency>
 
         <dependency>
             <groupId>com.sun.tools</groupId>
@@ -141,13 +142,14 @@
                         <version>${project.version}</version>
                     </docletArtifact>
                     <additionalparam> <!--1-->
-                      -include-basedir ${project.basedir}
-                      -attributes "idseparator=-; project_name=${project.name}; \
-                                   project_version=${project.version}; \
-                                   project_desc=${project.description}"
+                        -include-basedir ${project.basedir}
+                        -attributes "idseparator=-; project_name=${project.name}; \
+                        project_version=${project.version}; \
+                        project_desc=${project.description}"
                     </additionalparam>
                     <linksource>true</linksource>
-                    <overview>src/main/java/overview.html</overview> <!--2-->
+                    <overview>src/main/java/overview.html</overview>
+                    <!--2-->
 
                 </configuration>
             </plugin>
