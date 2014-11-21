@@ -6,7 +6,7 @@
     <groupId>org.avaje</groupId>
     <artifactId>pygments-doclet</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>pygments-doclet</name>
 
