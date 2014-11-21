@@ -17,7 +17,7 @@
         <version>7</version>
     </parent>
 
-    <url>http://github.com/rbygrave/avaje-pig-doclet</url>
+    <url>http://github.com/rbygrave/avaje-pygments-doclet</url>
     <description>Javadoc Doclet that uses Pygments for code highlighting.</description>
 
     <licenses>
@@ -28,9 +28,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/rbygrave/avaje-pig-doclet</url>
-        <connection>scm:git:git@github.com:rbygrave/avaje-pig-doclet.git</connection>
-        <developerConnection>scm:git:git@github.com:rbygrave/avaje-pig-doclet.git</developerConnection>
+        <url>http://github.com/rbygrave/avaje-pygments-doclet</url>
+        <connection>scm:git:git@github.com:rbygrave/avaje-pygments-doclet.git</connection>
+        <developerConnection>scm:git:git@github.com:rbygrave/avaje-pygments-doclet.git</developerConnection>
     </scm>
 
     <dependencies>
