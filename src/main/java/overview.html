@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>Doclet</h1>
+
+<pre>{@code [java]
+
+    @Test
+    public void testCleanInput(){
+        assertEquals("test1\ntest2", AsciidoctorRenderer.cleanJavadocInput("  test1\n test2\n"));
+        assertEquals("@", AsciidoctorRenderer.cleanJavadocInput("{@literal @}"));
+        assertEquals("/*\ntest\n*/", AsciidoctorRenderer.cleanJavadocInput("/*\ntest\n*\\/"));
+        assertEquals("&#64;", AsciidoctorRenderer.cleanJavadocInput("{at}"));
+        assertEquals("/", AsciidoctorRenderer.cleanJavadocInput("{slash}"));
+    }
+
+}</pre>
+</body>
+</html>
